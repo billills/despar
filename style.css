@@ -8,3 +8,10 @@
   src: url('copper.ttf') format('truetype'); /* Adjust file path and format */
 }
 
+.square {
+    background-color: #362545;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
