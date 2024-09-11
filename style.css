@@ -7,3 +7,21 @@
   font-family: 'Copper';  /* Replace with your font name */
   src: url('copper.ttf') format('truetype'); /* Adjust file path and format */
 }
+
+
+body {
+  background-image: url('banner.png'); /* Replace 'banner.jpg' with your image path */
+  background-size: 960px 540px; /* Adjust size as needed */
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
