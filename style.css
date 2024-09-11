@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'Windglass';
-  src: url('C:\Users\Administrator\Desktop\DeSpar\Windlass.ttf') format('truetype');
+  font-family: 'Windlass';
+  src: url('Windlass.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Copper';  /* Replace with your font name */
-  src: url('C:\Users\Administrator\Desktop\DeSpar\copperplategothic_bold.ttf') format('truetype'); /* Adjust file path and format */
+  src: url('copper.ttf') format('truetype'); /* Adjust file path and format */
 }
