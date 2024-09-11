@@ -12,28 +12,11 @@
   <meta name="author" content="vncuu">
 
   <style>
-    /* Banner Styles */
-    #banner {
-      background-image: url('banner.png'); /* Replace 'banner.png' with your image path */
-      background-size: 960px 540px; /* Adjust size as needed */
-      background-repeat: no-repeat;
-      background-position: center center;
-      animation: fadeIn 1s ease-in-out;
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
 
     /* Button Styles */
     #button {
-      position: absolute;
-      text-align: center;
+      display: flex; /* Enable flexbox layout */
+      justify-content: center; /* Center content horizontally */
       color: #2CB49C;
       background-color: transparent;
       text-decoration: none;
@@ -54,11 +37,12 @@
   </style>
 </head>
 <body>
-  <div id="banner"></div>
 
   <h1>DeSpar Wevender</h1>
   <p>Sail with us and go to the Best Ship and be ready to explore the Seven Seas, get Bounties, Voyages, Pirate Stories and Parties</p>
 
+  <div class="button-container">
   <a id="button" href="https://discord.gg/hTVphcJUYX">Sail Now</a>
+</div>
 </body>
 </html>
