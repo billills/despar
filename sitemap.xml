@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://vncuu.github.io/despar/">
+<urlset>
   <url>
     <loc>https://vncuu.github.io/despar/</loc>
-    <lastmod>2024-09-12</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-09-12</lastmod>  <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 </urlset>
